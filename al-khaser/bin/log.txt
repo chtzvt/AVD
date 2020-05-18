@@ -1,0 +1,204 @@
+[Sun May 17 14:46:37 2020] [*] TLS process attach callback  -> 0
+[Sun May 17 14:46:37 2020] [*] TLS thread attach callback  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking IsDebuggerPresent API  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking PEB.BeingDebugged  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking CheckRemoteDebuggerPresent API  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking PEB.NtGlobalFlag  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking ProcessHeap.Flags  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking ProcessHeap.ForceFlags  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking NtQueryInformationProcess with ProcessDebugPort  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking NtQueryInformationProcess with ProcessDebugFlags  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking NtQueryInformationProcess with ProcessDebugObject  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking WudfIsAnyDebuggerPresent API  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking WudfIsKernelDebuggerPresent API  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking WudfIsUserDebuggerPresent API  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking NtSetInformationThread with ThreadHideFromDebugger  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking CloseHandle with an invalide handle  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking UnhandledExcepFilterTest  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking OutputDebugString  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking Hardware Breakpoints  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking Software Breakpoints  -> 1
+[Sun May 17 14:46:37 2020] [*] Checking Interupt 0x2d  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking Interupt 1  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking trap flag -> 0
+[Sun May 17 14:46:37 2020] [*] Checking Memory Breakpoints PAGE GUARD  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking If Parent Process is explorer.exe  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking SeDebugPrivilege  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking NtQueryObject with ObjectTypeInformation  -> 0
+[Sun May 17 14:46:37 2020] [*] Checking NtQueryObject with ObjectAllTypesInformation  -> 0
+[Sun May 17 14:46:38 2020] [*] Checking NtYieldExecution  -> 0
+[Sun May 17 14:46:38 2020] [*] Checking CloseHandle protected handle trick   -> 0
+[Sun May 17 14:46:38 2020] [*] Checking NtQuerySystemInformation with SystemKernelDebuggerInformation   -> 0
+[Sun May 17 14:46:38 2020] [*] Checking SharedUserData->KdDebuggerEnabled   -> 0
+[Sun May 17 14:46:38 2020] [*] Checking if process is in a job   -> 0
+[Sun May 17 14:46:38 2020] [*] Checking VirtualAlloc write watch (buffer only)  -> 0
+[Sun May 17 14:46:38 2020] [*] Checking VirtualAlloc write watch (API calls)  -> 0
+[Sun May 17 14:46:38 2020] [*] Checking VirtualAlloc write watch (IsDebuggerPresent)  -> 0
+[Sun May 17 14:46:38 2020] [*] Checking VirtualAlloc write watch (code write)  -> 0
+[Sun May 17 14:46:38 2020] [*] Checking for page exception breakpoints  -> 0
+[Sun May 17 14:46:38 2020] [*] Checking for API hooks outside module bounds  -> 0
+[Sun May 17 14:46:38 2020] [*] Enumerating modules with EnumProcessModulesEx [32-bit]  -> 0
+[Sun May 17 14:46:38 2020] [*] Enumerating modules with EnumProcessModulesEx [64-bit]  -> 0
+[Sun May 17 14:46:38 2020] [*] Enumerating modules with EnumProcessModulesEx [ALL]  -> 0
+[Sun May 17 14:46:38 2020] [*] Enumerating modules with ToolHelp32  -> 0
+[Sun May 17 14:46:38 2020] [*] Enumerating the process LDR via LdrEnumerateLoadedModules  -> 0
+[Sun May 17 14:46:38 2020] [*] Enumerating the process LDR directly  -> 0
+[Sun May 17 14:46:40 2020] [*] Walking process memory with GetModuleInformation  -> 0
+[Sun May 17 14:46:41 2020] [*] Walking process memory for hidden modules  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: avghookx.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: avghooka.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: snxhk.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: sbiedll.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: dbghelp.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: api_log.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: dir_watch.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: pstorec.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: vmcheck.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: wpespy.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: cmdvrt64.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process loaded modules contains: cmdvrt32.dll  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process file name contains: sample.exe  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process file name contains: bot.exe  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process file name contains: sandbox.exe  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process file name contains: malware.exe  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process file name contains: test.exe  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process file name contains: klavme.exe  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process file name contains: myapp.exe  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process file name contains: testapp.exe  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking if process file name looks like a hash: al-khaser  -> 0
+[Sun May 17 14:46:41 2020] [*] Checking Number of processors in machine  -> 0
+[Sun May 17 14:46:42 2020] [*] Checking Interupt Descriptor Table location  -> 0
+[Sun May 17 14:46:42 2020] [*] Checking Local Descriptor Table location  -> 1
+[Sun May 17 14:46:42 2020] [*] Checking Global Descriptor Table location  -> 0
+[Sun May 17 14:46:42 2020] [*] Checking Store Task Register  -> 0
+[Sun May 17 14:46:43 2020] [*] Checking Number of cores in machine using WMI  -> 0
+[Sun May 17 14:46:43 2020] [*] Checking hard disk size using WMI  -> 0
+[Sun May 17 14:46:43 2020] [*] Checking hard disk size using DeviceIoControl  -> 0
+[Sun May 17 14:46:43 2020] [*] Checking SetupDi_diskdrive  -> 1
+[Sun May 17 14:46:48 2020] [*] Checking mouse movement  -> 0
+[Sun May 17 14:46:48 2020] [*] Checking memory space using GlobalMemoryStatusEx  -> 0
+[Sun May 17 14:46:48 2020] [*] Checking disk size using GetDiskFreeSpaceEx  -> 0
+[Sun May 17 14:46:48 2020] [*] Checking if CPU hypervisor field is set using cpuid(0x1) -> 1
+[Sun May 17 14:46:48 2020] [*] Checking hypervisor vendor using cpuid(0x40000000) -> 1
+[Sun May 17 14:48:32 2020] [*] Check if time has been accelerated  -> 0
+[Sun May 17 14:48:32 2020] [*] VM Driver Services   -> 0
+[Sun May 17 14:48:33 2020] [*] Checking SerialNumber from BIOS using WMI  -> 0
+[Sun May 17 14:48:33 2020] [*] Checking Model from ComputerSystem using WMI  -> 0
+[Sun May 17 14:48:33 2020] [*] Checking Manufacturer from ComputerSystem using WMI  -> 1
+[Sun May 17 14:48:33 2020] [*] Checking Current Temperature using WMI  -> 0
+[Sun May 17 14:48:34 2020] [*] Checking ProcessId using WMI  -> 0
+[Sun May 17 14:48:34 2020] [*] Checking power capabilities  -> 1
+[Sun May 17 14:48:34 2020] [*] Checking CPU fan using WMI  -> 1
+[Sun May 17 14:48:34 2020] [*] Checking NtQueryLicenseValue with Kernel-VMDetection-Private  -> 0
+[Sun May 17 14:48:34 2020] [*] Checking Win32_CacheMemory with WMI  -> 1
+[Sun May 17 14:48:35 2020] [*] Checking Win32_PhysicalMemory with WMI  -> 0
+[Sun May 17 14:48:35 2020] [*] Checking Win32_MemoryDevice with WMI  -> 1
+[Sun May 17 14:48:35 2020] [*] Checking Win32_MemoryArray with WMI  -> 0
+[Sun May 17 14:48:35 2020] [*] Checking Win32_VoltageProbe with WMI  -> 1
+[Sun May 17 14:48:35 2020] [*] Checking Win32_PortConnector with WMI  -> 1
+[Sun May 17 14:48:35 2020] [*] Checking Win32_SMBIOSMemory with WMI  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking ThermalZoneInfo performance counters with WMI  -> 1
+[Sun May 17 14:48:41 2020] [*] Checking CIM_Memory with WMI  -> 1
+[Sun May 17 14:48:41 2020] [*] Checking CIM_Sensor with WMI  -> 1
+[Sun May 17 14:48:41 2020] [*] Checking CIM_NumericSensor with WMI  -> 1
+[Sun May 17 14:48:41 2020] [*] Checking CIM_TemperatureSensor with WMI  -> 1
+[Sun May 17 14:48:41 2020] [*] Checking CIM_VoltageSensor with WMI  -> 1
+[Sun May 17 14:48:41 2020] [*] Checking CIM_PhysicalConnector with WMI  -> 1
+[Sun May 17 14:48:41 2020] [*] Checking CIM_Slot with WMI  -> 1
+[Sun May 17 14:48:41 2020] [*] Checking reg key HARDWARE\Description\System - Identifier is set to VBOX -> 0
+[Sun May 17 14:48:41 2020] [*] Checking reg key HARDWARE\Description\System - SystemBiosVersion is set to VBOX -> 0
+[Sun May 17 14:48:41 2020] [*] Checking reg key HARDWARE\Description\System - VideoBiosVersion is set to VIRTUALBOX -> 0
+[Sun May 17 14:48:41 2020] [*] Checking reg key HARDWARE\Description\System - SystemBiosDate is set to 06/23/99 -> 0
+[Sun May 17 14:48:41 2020] [*] Checking VirtualBox Guest Additions directory  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\drivers\VBoxMouse.sys  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\drivers\VBoxGuest.sys  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\drivers\VBoxSF.sys  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\drivers\VBoxVideo.sys  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxdisp.dll  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxhook.dll  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxmrxnp.dll  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxogl.dll  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxoglarrayspu.dll  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxoglcrutil.dll  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxoglerrorspu.dll  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxoglfeedbackspu.dll  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxoglpackspu.dll  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxoglpassthroughspu.dll  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxservice.exe  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\vboxtray.exe  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking file C:\WINDOWS\System32\VBoxControl.exe  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking reg key HARDWARE\ACPI\DSDT\VBOX__  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking reg key HARDWARE\ACPI\FADT\VBOX__  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking reg key HARDWARE\ACPI\RSDT\VBOX__  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking reg key SOFTWARE\Oracle\VirtualBox Guest Additions  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking reg key SYSTEM\ControlSet001\Services\VBoxGuest  -> 0
+[Sun May 17 14:48:41 2020] [*] Checking reg key SYSTEM\ControlSet001\Services\VBoxMouse  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking reg key SYSTEM\ControlSet001\Services\VBoxService  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking reg key SYSTEM\ControlSet001\Services\VBoxSF  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking reg key SYSTEM\ControlSet001\Services\VBoxVideo  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking Mac Address start with 08:00:27  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking MAC address (Hybrid Analysis)  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking device \\.\VBoxMiniRdrDN  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking device \\.\VBoxGuest  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking device \\.\pipe\VBoxMiniRdDN  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking device \\.\VBoxTrayIPC  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking device \\.\pipe\VBoxTrayIPC  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking VBoxTrayToolWndClass / VBoxTrayToolWnd  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking VirtualBox Shared Folders network provider  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking VirtualBox process vboxservice.exe  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking VirtualBox process vboxtray.exe  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking Win32_PnPDevice DeviceId from WMI for VBox PCI device  -> 0
+[Sun May 17 14:48:42 2020] [*] Checking Win32_PnPDevice Name from WMI for VBox controller hardware  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking Win32_PnPDevice Name from WMI for VBOX names  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking Win32_Bus from WMI  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking Win32_BaseBoard from WMI  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking MAC address from WMI  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking NTEventLog from WMI  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking SMBIOS firmware   -> 0
+[Sun May 17 14:48:43 2020] [*] Checking ACPI tables   -> 0
+[Sun May 17 14:48:43 2020] [*] Checking reg key HARDWARE\DEVICEMAP\Scsi\Scsi Port 0\Scsi Bus 0\Target Id 0\Logical Unit Id 0 -> 0
+[Sun May 17 14:48:43 2020] [*] Checking reg key HARDWARE\DEVICEMAP\Scsi\Scsi Port 1\Scsi Bus 0\Target Id 0\Logical Unit Id 0 -> 0
+[Sun May 17 14:48:43 2020] [*] Checking reg key HARDWARE\DEVICEMAP\Scsi\Scsi Port 2\Scsi Bus 0\Target Id 0\Logical Unit Id 0 -> 0
+[Sun May 17 14:48:43 2020] [*] Checking reg key SYSTEM\ControlSet001\Control\SystemInformation -> 0
+[Sun May 17 14:48:43 2020] [*] Checking reg key SYSTEM\ControlSet001\Control\SystemInformation -> 0
+[Sun May 17 14:48:43 2020] [*] Checking reg key SOFTWARE\VMware, Inc.\VMware Tools  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmnet.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmmouse.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmusb.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vm3dmp.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmci.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmhgfs.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmmemctl.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmx86.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmrawdsk.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmusbmouse.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmkdb.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmnetuserif.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking file C:\WINDOWS\System32\drivers\vmnetadapter.sys  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking MAC starting with 00:05:69 -> 0
+[Sun May 17 14:48:43 2020] [*] Checking MAC starting with 00:0c:29 -> 0
+[Sun May 17 14:48:43 2020] [*] Checking MAC starting with 00:1C:14 -> 0
+[Sun May 17 14:48:43 2020] [*] Checking MAC starting with 00:50:56 -> 0
+[Sun May 17 14:48:43 2020] [*] Checking VMWare network adapter name  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking device \\.\HGFS  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking device \\.\vmci  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking VMWare directory  -> 0
+[Sun May 17 14:48:43 2020] [*] Checking SMBIOS firmware   -> 0
+[Sun May 17 14:48:43 2020] [*] Checking ACPI tables   -> 0
+[Sun May 17 14:48:44 2020] [*] Checking Virtual PC processes VMSrvc.exe  -> 0
+[Sun May 17 14:48:44 2020] [*] Checking Virtual PC processes VMUSrvc.exe  -> 0
+[Sun May 17 14:48:44 2020] [*] Checking reg key SOFTWARE\Microsoft\Virtual Machine\Guest\Parameters  -> 0
+[Sun May 17 14:48:44 2020] [*] Checking reg key HARDWARE\DEVICEMAP\Scsi\Scsi Port 0\Scsi Bus 0\Target Id 0\Logical Unit Id 0  -> 0
+[Sun May 17 14:48:44 2020] [*] Checking reg key HARDWARE\Description\System  -> 0
+[Sun May 17 14:48:44 2020] [*] Checking qemu processes qemu-ga.exe  -> 0
+[Sun May 17 14:48:44 2020] [*] Checking SMBIOS firmware   -> 1
+[Sun May 17 14:48:44 2020] [*] Checking ACPI tables   -> 1
+[Sun May 17 14:48:44 2020] [*] Checking Citrix Xen process xenservice.exe -> 0
+[Sun May 17 14:48:44 2020] [*] Checking Mac Address start with 08:16:3E  -> 0
+[Sun May 17 14:48:44 2020] [*] Checking Wine via dll exports  -> 0
+[Sun May 17 14:48:44 2020] [*] Checking reg key SOFTWARE\Wine  -> 0
+[Sun May 17 14:48:44 2020] [*] Checking Parallels processes: prl_cc.exe -> 0
+[Sun May 17 14:48:44 2020] [*] Checking Parallels processes: prl_tools.exe -> 0
+[Sun May 17 14:48:44 2020] [*] Checking Mac Address start with 08:1C:42  -> 0
+[Sun May 17 14:58:44 2020] [*] Performing a sleep using NtDelayExecution ... -> 0
+[Sun May 17 15:08:45 2020] [*] Performing a sleep() in a loop ... -> 0
