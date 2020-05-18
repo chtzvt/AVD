@@ -1,0 +1,4 @@
+#define BUILD_APPNAME  "DELL"
+#define BUILD_CPUNAME8 "DELL    "
+#define BUILD_APPNAME6 "DELL  "
+#define BUILD_APPNAME4 "DELL"

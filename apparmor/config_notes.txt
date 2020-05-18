@@ -1,0 +1,4 @@
+Add to /etc/apparmor.d/abstractions/libvirt-qemu :
+
+  # Extend access to patched antivm qemu binary
+  /usr/bin/qemu-system-x86_64-antivm rmix,

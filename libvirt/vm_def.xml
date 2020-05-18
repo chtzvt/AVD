@@ -1,0 +1,108 @@
+<domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0'>
+  <name>Tests</name>
+  <uuid>822af091-0007-4efd-b0a2-f014c8e40faf</uuid>
+  <metadata>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://microsoft.com/win/10"/>
+    </libosinfo:libosinfo>
+  </metadata>
+  <memory unit='KiB'>4194304</memory>
+  <currentMemory unit='KiB'>4194304</currentMemory>
+  <vcpu placement='static'>2</vcpu>
+  <resource>
+    <partition>/machine</partition>
+  </resource>
+  <os>
+    <type arch='x86_64' machine='pc-i440fx-bionic'>hvm</type>
+    <bios useserial='no' rebootTimeout='0'/>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+    <hyperv>
+      <relaxed state='on'/>
+      <vapic state='on'/>
+      <spinlocks state='on' retries='8191'/>
+      <vendor_id state='on' value='ASUS'/>
+    </hyperv>
+    <kvm>
+      <hidden state='on'/>
+    </kvm>
+    <vmport state='off'/>
+  </features>
+  <cpu mode='host-passthrough' check='none'>
+    <topology sockets='1' cores='2' threads='1'/>
+    <feature policy='disable' name='hypervisor'/>
+  </cpu>
+  <clock offset='localtime'>
+    <timer name='rtc' tickpolicy='catchup'/>
+    <timer name='pit' tickpolicy='delay'/>
+    <timer name='hpet' present='no'/>
+    <timer name='hypervclock' present='yes'/>
+  </clock>
+  <on_poweroff>destroy</on_poweroff>
+  <on_reboot>restart</on_reboot>
+  <on_crash>destroy</on_crash>
+  <pm>
+    <suspend-to-mem enabled='no'/>
+    <suspend-to-disk enabled='no'/>
+  </pm>
+  <devices>
+    <emulator>/usr/bin/qemu-system-x86_64-antivm</emulator>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2'/>
+      <source file='/2TB/labs/respondusvm.qcow2'/>
+      <backingStore/>
+      <target dev='hda' bus='ide'/>
+      <serial>23c0d55a52976f5bd80a2280ebe480db</serial>
+      <boot order='1'/>
+      <address type='drive' controller='0' bus='0' target='0' unit='0'/>
+    </disk>
+    <controller type='usb' index='0' model='nec-xhci' ports='15'>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x04' function='0x0'/>
+    </controller>
+    <controller type='ide' index='0'>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x01' function='0x1'/>
+    </controller>
+    <controller type='pci' index='0' model='pci-root'/>
+    <interface type='bridge'>
+      <mac address='00:aa:01:95:ef:f5'/>
+      <source bridge='brlabs'/>
+      <model type='e1000e'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x0'/>
+    </interface>
+    <input type='mouse' bus='ps2'/>
+    <input type='keyboard' bus='ps2'/>
+    <input type='tablet' bus='usb'>
+      <address type='usb' bus='0' port='1'/>
+    </input>
+    <graphics type='spice' autoport='yes' listen='127.0.0.1'>
+      <listen type='address' address='127.0.0.1'/>
+      <image compression='off'/>
+    </graphics>
+    <video>
+      <model type='vga' vram='32768' heads='1' primary='yes'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x0'/>
+    </video>
+    <memballoon model='none'/>
+  </devices>
+  <seclabel type='dynamic' model='apparmor' relabel='yes'/>
+  <seclabel type='dynamic' model='dac' relabel='yes'/>
+  <qemu:commandline>
+    <qemu:arg value='-set'/>
+    <qemu:arg value='device.ide0-0-0.model=TOSHIBA'/>
+    <qemu:arg value='-smbios'/>
+    <qemu:arg value='type=0,vendor=ASUS,version=nopehq.023947'/>
+    <qemu:arg value='-smbios'/>
+    <qemu:arg value='type=1,manufacturer=ASUS,product=ASUS,version=nopehq.023847'/>
+    <qemu:arg value='-smbios'/>
+    <qemu:arg value='type=2,manufacturer=ASUS,product=ASUS,version=nopehq.28907,serial=954323456,asset=345678,location=nopehq'/>
+    <qemu:arg value='-smbios'/>
+    <qemu:arg value='type=3,manufacturer=ASUS,version=nopehq.4598762'/>
+    <qemu:arg value='-smbios'/>
+    <qemu:arg value='type=4,manufacturer=Intel,version=Intel(R) Xeon(R) CPU E3-1246 v3 @ 3.50GHz'/>
+    <qemu:arg value='-smbios'/>
+    <qemu:arg value='type=17,manufacturer=ASUS,serial=6734987380923,asset=nopehq.394839'/>
+  </qemu:commandline>
+</domain>
+
